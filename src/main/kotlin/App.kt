@@ -17,4 +17,11 @@ fun main (args: Array<String>) {
         x += 1
         println("x is now $x")
     }
+    if (x > 20) {
+        println("$x")
+    }
+    if (name == "Cormorant") {
+        println("name is Strike")
+
+    }
 }
