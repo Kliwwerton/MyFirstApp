@@ -1,9 +1,7 @@
 fun main (args: Array<String>) {
-    var x = 1
-    while (x < 3) {
-        print(if (x == 1) "Yab" else "Dab")
-        print("ba")
-        x += 1
+    var x = 10
+    while (x > 1) {
+        x -= 1
+        print(if (x < 3) "small x" else "big x")
     }
-    if (x == 3) println("Do")
 }
